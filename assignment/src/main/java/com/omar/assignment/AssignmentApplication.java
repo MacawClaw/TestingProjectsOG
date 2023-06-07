@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AssignmentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AssignmentApplication.class, args);
-	}
 
-	System.out.println("This Maven project is working!");
+		SpringApplication.run(AssignmentApplication.class, args);
+		System.out.println("This Maven project is working!");
+	}
 
 }
